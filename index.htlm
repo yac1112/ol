@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SneakWin</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>SneakWin</h1>
+        <nav>
+            <ul>
+                <li><a href="#competitions">Competitions</a></li>
+                <li><a href="#winners">Winners</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <h2>Win Exclusive Sneakers</h2>
+        <p>Participate in our competitions to win rare and limited edition sneakers!</p>
+        <a href="#competitions" class="cta-button">View Competitions</a>
+    </section>
+
+    <!-- Competitions Section -->
+    <section id="competitions">
+        <h2>Current Competitions</h2>
+        <div class="competition-card">
+            <h3>Nike Air Jordan 1 Travis Scott</h3>
+            <p>Value: €2500</p>
+            <p>Tickets: €20</p>
+            <button class="cta-button">Enter Now</button>
+        </div>
+        <div class="competition-card">
+            <h3>Yeezy Boost 350 V2 Zebra</h3>
+            <p>Value: €1200</p>
+            <p>Tickets: €15</p>
+            <button class="cta-button">Enter Now</button>
+        </div>
+        <!-- More competition cards -->
+    </section>
+
+    <!-- Winners Section -->
+    <section id="winners">
+        <h2>Recent Winners</h2>
+        <ul>
+            <li>John Doe - Nike Air Jordan 1 Travis Scott</li>
+            <li>Jane Smith - Yeezy Boost 350 V2 Zebra</li>
+            <!-- More winners -->
+        </ul>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-item">
+            <h3>How do I participate?</h3>
+            <p>Simply purchase a ticket for the competition you are interested in and wait for the draw.</p>
+        </div>
+        <!-- More FAQ items -->
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions, feel free to reach out to us via email at support@sneakwin.com.</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 SneakWin. All rights reserved.</p>
+    </footer>
+</body>
+</html>
